@@ -24,6 +24,14 @@
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>3.9.1</muleVersion>
+						<username>kiran_padam123</username>
+						<password>Eaiesb@123</password>
+						<applicationName>samplehelloworld</applicationName>
+						<environment>Sandbox</environment>
+					</cloudHubDeployment>
                     <copyToAppsDirectory>true</copyToAppsDirectory>
 				</configuration>
 			</plugin>
